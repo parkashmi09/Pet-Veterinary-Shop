@@ -1,0 +1,61 @@
+.header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-icon {
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.login {
+  cursor: pointer;
+}
+
+.popover {
+  position: absolute;
+  top: 110%;
+  right: -80px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 180px;
+  padding: 20px 20px;
+}
+.btn-wrapper {
+  display: flex;
+  color: #777;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.log-out-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.dashboard-text {
+  cursor: pointer;
+  margin-left: 12px;
+}
+@media (max-width: 768px) {
+  .user-icon {
+    margin-right: 20px;
+  }
+  .pet-text {
+    font-size: 20px;
+  }
+}

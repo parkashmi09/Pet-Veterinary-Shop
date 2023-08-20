@@ -1,0 +1,71 @@
+.pets-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .pet-card {
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+    width: 300px;
+  }
+  
+  .pet-card:hover {
+    transform: translateY(-5px);
+  }
+  .pet-avatar img {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .pet-avatar {
+    font-size: 2rem;
+    color: #e74c3c;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  
+  .pet-details {
+    flex: 1;
+  }
+  
+  .pet-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .pet-owner {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  .pet-email {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  @media (max-width: 768px) {
+    .pet-card {
+      width: 100%;
+    }
+  }
+  
